@@ -123,7 +123,7 @@ endif
 # That's desired by us: we want only absent files from the platform zip package.
 # Copy with the last-modified time preserved, never follow symbolic links.
 $(PRODUCT_OUT)/% : $(_pdk_fusion_intermediates)/% $(_pdk_fusion_stamp)
-	@mkdir -p $(dir $@)
+	$(hide) mkdir -p $(dir $@)
 	$(hide) rm -rf $@
 	$(hide) cp -fpPR $< $@
 
