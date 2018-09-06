@@ -17,19 +17,12 @@
 PRODUCT_PROPERTY_OVERRIDES :=
 
 PRODUCT_PACKAGES := \
-	CellBroadcastReceiver \
-	CubeLiveWallpapers \
 	CustomLocale \
 	Development \
 	Dialer \
-	Gallery2 \
 	Launcher3QuickStep \
-	Camera2 \
 	librs_jni \
-	LiveWallpapersPicker \
 	Mms \
-	Music \
-	Protips \
 	rild \
 	screenrecord \
 	SdkSetup \
@@ -37,8 +30,6 @@ PRODUCT_PACKAGES := \
 	sqlite3 \
 	SystemUI \
 	SysuiDarkThemeOverlay \
-	EasterEgg \
-	WallpaperPicker \
 	WidgetPreview \
 
 # Define the host tools and libs that are parts of the SDK.

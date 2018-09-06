@@ -22,8 +22,4 @@ PRODUCT_PACKAGES := \
     CarrierDefaultApp \
     Dialer \
     CallLogBackup \
-    CellBroadcastReceiver \
-    EmergencyInfo \
     rild
-
-PRODUCT_COPY_FILES := \
