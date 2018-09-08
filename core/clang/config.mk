@@ -82,6 +82,7 @@ LOCAL_CLANG_EXCEPTION_PROJECTS = \
   test/vts/hals/etc/libqdutils/ \
   vendor/huawei/angler/ \
   vendor/lge/bullhead/ \
+  external/fuse/ \
   $(INTERNAL_LOCAL_CLANG_EXCEPTION_PROJECTS)
 
 # Find $1 in the exception project list.

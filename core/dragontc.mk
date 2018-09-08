@@ -24,7 +24,7 @@ BLUETOOTH := libbluetooth_jni bluetooth.mapsapi bluetooth.default bluetooth.maps
 # DTC module disable
 DISABLE_DTC_arm :=
 DISABLE_DTC_arm64 := libv8base libblasV8 libF77blasV8 libF77blas libbnnmlowpV8 libfdlibm libGLES_android libwebrtc% libmusicbundle libreverb \
-                     camera.sdm845 libmmlib2d_interface libmmjpeg_interface libmmcamera_interface libqomx_core
+                     camera.sdm845 libmmlib2d_interface libmmjpeg_interface libmmcamera_interface libqomx_core libjni_snapcammosaic libjni_imageutil libfuse
 
 # Set DISABLE_DTC based on arch
 DISABLE_DTC := \
@@ -80,7 +80,7 @@ POLLY := -O3 -mllvm -polly \
 
 # Disable modules that dont work with Polly.
 DISABLE_POLLY_arm :=
-DISABLE_POLLY_arm64 :=
+DISABLE_POLLY_arm64 := libntfs-3g
 
 # Set DISABLE_POLLY based on arch
 DISABLE_POLLY := \
